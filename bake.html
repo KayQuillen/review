@@ -29,12 +29,16 @@ var status = bake(350);
 
 // Here so the code will run!
 function setMode(mode) {
-  if(mode = "Bake"){message2 = "Bake" (message2)
-  }else{message = "Please enter valid mode"}
+  if(mode == "bake"){
+    alert("oven ready")
+  }else{alert("not ready")}
+  
  };
 function setTemp(degrees) {
-  if(degrees = Number){message1 ="You got it"}
-  else{message1 = "Please enter valid Temp"}
+  if(degrees>= 200 && <= 475){
+    alert("oven is preheated")
+  }else{alert("I need a bit more")}
+  
  };
 
   </script>

@@ -2,7 +2,7 @@
 
 // while: a statement that creates a loop that is executed while a specified condition is true.
 
-// src: an attribute that specifies the URL of an external script file
+// src: an attribute that specifies the URL of an external script file or to link seprate js file
 
 // case: clause used to match against expression 
 
